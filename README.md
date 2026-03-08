@@ -1,2 +1,3 @@
-# docstitution
-A governing document for governing documents of software teams composed of humans and agents.
+# The Docstitution
+
+See [Letter of Impetus](./letter-of-impetus.md).
