@@ -1,9 +1,10 @@
 <!--
 ---
 title: "Article III: Lifecycle Governance"
-document_type: governance
-status: Draft
-owner: Article III Drafting Committee
+document_type: governing-document
+status: draft
+owner: convention-committee
+audience: [humans, agents]
 reviewers:
   - Madison (Documentation Architect)
   - Ellsworth (Scrum Master)
@@ -13,13 +14,14 @@ reviewers:
   - Livingston (SysAdmin)
 review_cadence: quarterly
 freshness_threshold_days: 90
-last_reviewed: null
+last_verified: 2025-07-25
+tags: [lifecycle, governance, freshness, review-cadence, deprecation]
 created: 2025-07-17
 version: 0.1.0
 cross_references:
   - article-I-foundational-principles.md
-  - article-II-document-types-taxonomy.md
-  - article-V-roles-responsibilities.md
+  - article-II-document-types-and-taxonomy.md
+  - article-V-roles-and-responsibilities.md
 ---
 -->
 
@@ -41,7 +43,7 @@ _When and how documents are created, reviewed, updated, deprecated, and archived
 | **Deprecated** | No longer current. A successor or removal notice MUST be linked. |
 | **Archived** | Removed from active discovery but preserved in version control for audit. |
 
-**§1.2** Stage transitions SHALL be recorded in version history with the actor's identity (human or agent) and a rationale, per Article V.
+**§1.2** Stage transitions SHALL be recorded in version history with the actor's identity (human or agent) and a rationale, per [Article V](article-V-roles-and-responsibilities.md).
 
 **§1.3** A **Draft** document SHALL NOT be cited as authoritative.
 
@@ -51,7 +53,7 @@ _When and how documents are created, reviewed, updated, deprecated, and archived
 
 **§2.1** The following events SHALL trigger creation of corresponding documentation. These obligations apply regardless of team size; Section 6 provides accommodations for scope, not exemption.
 
-| Trigger Event | Required Document(s) | Tier (Article II) |
+| Trigger Event | Required Document(s) | Tier ([Article II](article-II-document-types-and-taxonomy.md)) |
 |---|---|---|
 | New service deployed to production | Runbook, service catalog entry | Authored/Maintained |
 | New public or internal API | API specification (OpenAPI or equivalent) | Executable/Verified |
@@ -69,24 +71,24 @@ _When and how documents are created, reviewed, updated, deprecated, and archived
 
 ## Section 3. Review & Maintenance Cadences
 
-**§3.1 Review Frequency by Tier.** Documents SHALL be reviewed per their Article II classification:
+**§3.1 Review Frequency by Tier.** Documents SHALL be reviewed per their [Article II](article-II-document-types-and-taxonomy.md) classification:
 
-| Document Tier (Article II) | Review Cadence | Freshness Threshold |
+| Document Tier ([Article II](article-II-document-types-and-taxonomy.md)) | Review Cadence | Freshness Threshold |
 |---|---|---|
 | **Executable / Verified** | Continuous (CI-validated) | Validated on every build |
 | **Generated / Derived** | Regenerated on source change | Stale if source changed since last generation |
 | **Authored / Maintained** | Quarterly | 90 days without review |
 | **Ephemeral / Ceremonial** | Per sprint or cadence | End of sprint/cycle |
 
-**§3.2 Freshness Enforcement.** A document exceeding its freshness threshold SHALL be automatically transitioned to **Under Review**. Tooling SHOULD surface staleness warnings to the owner. A document remaining **Under Review** for more than 30 days beyond its threshold SHALL be escalated per Article V.
+**§3.2 Freshness Enforcement.** A document exceeding its freshness threshold SHALL be automatically transitioned to **Under Review**. Tooling SHOULD surface staleness warnings to the owner. A document remaining **Under Review** for more than 30 days beyond its threshold SHALL be escalated per [Article V](article-V-roles-and-responsibilities.md).
 
-**§3.3 Staleness Is a Defect.** Per Article I's principle that a stale document is worse than a missing one, a document exceeding twice its freshness threshold SHALL be flagged for deprecation review.
+**§3.3 Staleness Is a Defect.** Per [Article I](article-I-foundational-principles.md)'s principle that a stale document is worse than a missing one, a document exceeding twice its freshness threshold SHALL be flagged for deprecation review.
 
 **§3.4 Triggered Reviews.** Beyond scheduled cadence, a document SHALL enter **Under Review** when:
 
 - A production incident implicates the documented system or process.
 - A dependency documented within it undergoes a major version change.
-- The document's owner transfers ownership (per Article V).
+- The document's owner transfers ownership (per [Article V](article-V-roles-and-responsibilities.md)).
 - An agent or human consumer reports a factual inaccuracy.
 
 ---
@@ -101,7 +103,7 @@ _When and how documents are created, reviewed, updated, deprecated, and archived
 
 **§4.2 Deprecation Procedure.**
 
-1. The document owner (or successor per Article V) SHALL propose deprecation with written rationale.
+1. The document owner (or successor per [Article V](article-V-roles-and-responsibilities.md)) SHALL propose deprecation with written rationale.
 2. A deprecation notice SHALL be added, including: date, reason, and link to any successor document.
 3. The document SHALL remain **Deprecated** for a minimum of 30 days before archival.
 
@@ -159,4 +161,4 @@ This Article practices what it preaches.
 - **Current Status:** Draft
 - **Tier:** Authored/Maintained
 
-Upon ratification, ownership SHALL transfer to the Docstitution Governance Body defined in Article V.
+Upon ratification, ownership SHALL transfer to the Docstitution Governance Body defined in [Article V](article-V-roles-and-responsibilities.md).
