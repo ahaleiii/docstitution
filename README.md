@@ -1,12 +1,14 @@
 <!--
 ---
-document_type: constitution
+document_type: governing-document
 title: The Docstitution
 status: draft
-owner: Docstitution Convention
+owner: convention-committee
 audience: [humans, agents]
-last_reviewed: 2025-07-24
+last_verified: 2025-07-25
 version: 0.1.0
+review_cadence: annual
+tags: [docstitution, preamble, governance, documentation-standards]
 description: >
   The governing framework for software documentation — establishing principles,
   taxonomy, lifecycle, structure, roles, tooling, and amendment processes for
@@ -17,25 +19,25 @@ articles:
     path: README.md#preamble
   - id: article-i
     title: "Article I: Foundational Principles"
-    path: articles/article-i.md
+    path: article-I-foundational-principles.md
   - id: article-ii
     title: "Article II: Document Types & Taxonomy"
-    path: articles/article-ii.md
+    path: article-II-document-types-and-taxonomy.md
   - id: article-iii
     title: "Article III: Lifecycle Governance"
-    path: articles/article-iii.md
+    path: article-III-lifecycle-governance.md
   - id: article-iv
     title: "Article IV: Structure & Format Standards"
-    path: articles/article-iv.md
+    path: article-IV-structure-and-format-standards.md
   - id: article-v
     title: "Article V: Roles & Responsibilities"
-    path: articles/article-v.md
+    path: article-V-roles-and-responsibilities.md
   - id: article-vi
     title: "Article VI: Tooling & Infrastructure"
-    path: articles/article-vi.md
+    path: article-VI-tooling-and-infrastructure.md
   - id: article-vii
     title: "Article VII: Amendment Process"
-    path: articles/article-vii.md
+    path: article-VII-amendment-process.md
 ---
 -->
 
@@ -102,13 +104,13 @@ This Docstitution shall itself follow the principles it prescribes. It carries s
 | Article | Title | Scope |
 |---|---|---|
 | [Preamble](#preamble) | Preamble | Purpose, scope, philosophy, and founding principles |
-| [Article I](articles/article-i.md) | Foundational Principles | Non-negotiable values underpinning all other Articles |
-| [Article II](articles/article-ii.md) | Document Types & Taxonomy | Authoritative classification of all document types |
-| [Article III](articles/article-iii.md) | Lifecycle Governance | Creation, review, update, deprecation, and archival |
-| [Article IV](articles/article-iv.md) | Structure & Format Standards | Organization, formatting, and navigability standards |
-| [Article V](articles/article-v.md) | Roles & Responsibilities | Authorship, ownership, review, and agent participation |
-| [Article VI](articles/article-vi.md) | Tooling & Infrastructure | Technical infrastructure for documentation systems |
-| [Article VII](articles/article-vii.md) | Amendment Process | How the Docstitution itself evolves |
+| [Article I](article-I-foundational-principles.md) | Foundational Principles | Non-negotiable values underpinning all other Articles |
+| [Article II](article-II-document-types-and-taxonomy.md) | Document Types & Taxonomy | Authoritative classification of all document types |
+| [Article III](article-III-lifecycle-governance.md) | Lifecycle Governance | Creation, review, update, deprecation, and archival |
+| [Article IV](article-IV-structure-and-format-standards.md) | Structure & Format Standards | Organization, formatting, and navigability standards |
+| [Article V](article-V-roles-and-responsibilities.md) | Roles & Responsibilities | Authorship, ownership, review, and agent participation |
+| [Article VI](article-VI-tooling-and-infrastructure.md) | Tooling & Infrastructure | Technical infrastructure for documentation systems |
+| [Article VII](article-VII-amendment-process.md) | Amendment Process | How the Docstitution itself evolves |
 
 ---
 

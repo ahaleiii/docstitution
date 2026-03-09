@@ -1,8 +1,14 @@
 <!--
 ---
 title: "Article V: Roles & Responsibilities"
+document_type: governing-document
 article: V
 status: draft
+owner: convention-committee
+audience: [humans, agents]
+last_verified: 2025-07-25
+review_cadence: annual
+tags: [roles, responsibilities, ownership, agents, review-gates]
 domain: "Governance — Documentation Roles"
 scope: "Who creates, reviews, owns, and maintains documentation"
 drafting_committee: [Washington, Gerry, Wythe, King, Read, McClurg, Gilman]
@@ -18,7 +24,7 @@ cross_references: [article-I, article-III, article-VI]
 
 ## Section 1. Documentation Roles
 
-Every act of documentation involves one or more defined roles. These roles govern behavior across the lifecycle stages defined in Article III.
+Every act of documentation involves one or more defined roles. These roles govern behavior across the lifecycle stages defined in [Article III](article-III-lifecycle-governance.md).
 
 ### § 1.1 Role Taxonomy
 
@@ -46,15 +52,15 @@ Humans hold ultimate accountability for the documentation estate.
 
 ### § 2.1 Owner Duties
 
-The Owner of a document shall: (a) ensure accuracy, currency, and alignment with the artifact described; (b) respond to reported inaccuracies within Article III cadences; (c) initiate deprecation or archival per Article III; and (d) maintain metadata, classification (Section 5), and cross-references.
+The Owner of a document shall: (a) ensure accuracy, currency, and alignment with the artifact described; (b) respond to reported inaccuracies within [Article III](article-III-lifecycle-governance.md) cadences; (c) initiate deprecation or archival per [Article III](article-III-lifecycle-governance.md); and (d) maintain metadata, classification (Section 5), and cross-references.
 
 ### § 2.2 Author & Reviewer Duties
 
-Human Authors shall write for both human and agent audiences per Article I, provide the **intent, rationale, and narrative context** that only human judgment can supply, and accept responsibility for any agent-generated content they incorporate. Human Reviewers shall verify accuracy, compliance, and fitness for audience — with particular attention to agent-generated content.
+Human Authors shall write for both human and agent audiences per [Article I](article-I-foundational-principles.md), provide the **intent, rationale, and narrative context** that only human judgment can supply, and accept responsibility for any agent-generated content they incorporate. Human Reviewers shall verify accuracy, compliance, and fitness for audience — with particular attention to agent-generated content.
 
 ### § 2.3 Documentation in Definition of Done
 
-No feature, service, or system change is complete until: relevant documentation is created or updated, reviewed by at least one non-Author, and metadata is current per Article IV.
+No feature, service, or system change is complete until: relevant documentation is created or updated, reviewed by at least one non-Author, and metadata is current per [Article IV](article-IV-structure-and-format-standards.md).
 
 ---
 
@@ -70,7 +76,7 @@ Agents may participate as:
 |---|---|
 | **Generator** | Produce draft content from code, schemas, telemetry, or machine-readable sources. |
 | **Validator** | Check documents for structural compliance, broken links, staleness, and terminology. |
-| **Enforcer** | Flag or block publication of documents failing Article VI validation gates. |
+| **Enforcer** | Flag or block publication of documents failing [Article VI](article-VI-tooling-and-infrastructure.md) validation gates. |
 | **Draft Author** | Produce initial drafts of factual or structural documents for human review. |
 | **Reviewer (Assistive)** | Identify gaps, inconsistencies, or standards violations for human consideration. |
 
@@ -80,9 +86,30 @@ Agents may participate as:
 2. **Agents shall not Approve documents.** The Approver role is reserved for humans.
 3. **Agent-generated content shall not be published without human review and approval.** This gate applies regardless of document type or classification.
 
-### § 3.3 Agent Identity & Audit Trail
+### § 3.3 Human Review Gates & Enforcement
 
-Agents must be identified as distinct actors in all audit trails via `generated-by` or `co-authored-by` metadata. Agent contributions shall be distinguishable from human contributions in version history, with records retained per Article III.
+The following mechanisms enforce the human review requirement of § 3.2:
+
+1. **`reviewed_by` metadata.** All published documents SHALL include a `reviewed_by` field identifying the human reviewer who approved publication.
+2. **`generated_by` metadata.** Agent-generated content SHALL be flagged with a `generated_by` metadata field identifying the agent or pipeline that produced it.
+3. **CI enforcement.** CI pipelines SHOULD reject publication of agent-generated narrative content (Tier 3 or Tier 4) that lacks a human `reviewed_by` entry. See [Article VI](article-VI-tooling-and-infrastructure.md) for CI requirements.
+4. **Accuracy audit.** Teams SHOULD review agent-generated documentation quarterly for accuracy drift, terminology consistency, and alignment with current system behavior.
+5. **Non-compliance procedure.** Documents found to violate review gates SHALL be reverted to `draft` status and flagged for human review before republication.
+
+### § 3.4 Autonomous Agent Publication of Verified Content
+
+**Exception:** For Tier 1 (Executable/Verified) and Tier 2 (Generated/Derived) documents produced by human-approved CI pipelines, agents MAY publish without per-document human review, provided:
+
+1. The pipeline itself has been reviewed and approved by a human Owner or Approver;
+2. All pipeline outputs are logged in an audit trail with timestamps, input sources, and the generating agent identity;
+3. Human review gates apply to the pipeline *configuration*, not to each individual output; and
+4. A human Owner remains accountable for the pipeline's outputs and may revoke autonomous publication at any time.
+
+This exception recognizes that requiring per-document human review of machine-verified artifacts (e.g., auto-generated API references, schema docs, CI-validated changelogs) creates friction without proportional quality benefit when the pipeline itself is trusted.
+
+### § 3.5 Agent Identity & Audit Trail
+
+Agents must be identified as distinct actors in all audit trails via `generated_by` or `co-authored-by` metadata. Agent contributions shall be distinguishable from human contributions in version history, with records retained per [Article III](article-III-lifecycle-governance.md).
 
 ---
 
@@ -94,7 +121,7 @@ Every document — whether human-authored, agent-generated, or collaboratively p
 
 ### § 4.2 Ownership Assignment
 
-Ownership aligns with domain expertise: the person closest to the system a document describes is the preferred Owner. Assignments shall be recorded in document metadata and discoverable via Article VI infrastructure.
+Ownership aligns with domain expertise: the person closest to the system a document describes is the preferred Owner. Assignments shall be recorded in document metadata and discoverable via [Article VI](article-VI-tooling-and-infrastructure.md) infrastructure.
 
 ### § 4.3 Ownership Transfer
 
@@ -126,11 +153,11 @@ Documentation shall be accessible by default. Restriction is the exception, appl
 1. **Default Open.** Documents are Tier 0 unless the Owner demonstrates a higher tier is warranted. The burden falls on restriction, not access.
 2. **Minimum Necessary Restriction.** Classify at the lowest tier that adequately protects the content.
 3. **Agent Audit.** Agent access to Tier 2 documents shall be logged. Tier 3 documents are human-only.
-4. **Periodic Review.** Classification levels shall be reviewed on Article III freshness cadences. Over-classification is a defect.
+4. **Periodic Review.** Classification levels shall be reviewed on [Article III](article-III-lifecycle-governance.md) freshness cadences. Over-classification is a defect.
 
 ### § 5.3 Consumer Rights
 
-Both human and agent consumers have the right to: (a) **Accuracy** — documentation reflecting current system state; (b) **Currency** — timely updates within Article III freshness thresholds; (c) **Accessibility** — content structured for their mode of consumption per Article I's Dual-Audience Primacy; and (d) **Discoverability** — the ability to find documentation through search, cross-references, and Article II taxonomy.
+Both human and agent consumers have the right to: (a) **Accuracy** — documentation reflecting current system state; (b) **Currency** — timely updates within [Article III](article-III-lifecycle-governance.md) freshness thresholds; (c) **Accessibility** — content structured for their mode of consumption per [Article I](article-I-foundational-principles.md)'s Dual-Audience Primacy; and (d) **Discoverability** — the ability to find documentation through search, cross-references, and [Article II](article-II-document-types-and-taxonomy.md) taxonomy.
 
 ---
 
