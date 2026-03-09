@@ -1,0 +1,488 @@
+[
+  {
+    "persistent_name": "Washington",
+    "folder": "washington",
+    "role": "Convention President / Chief Software Architect",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Franklin",
+    "folder": "franklin",
+    "role": "Senior Technical Advisor",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Madison",
+    "folder": "madison",
+    "role": "Documentation Architect / Lead Technical Writer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Wythe",
+    "folder": "wythe",
+    "role": "Compliance & Governance Specialist",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "WSJohnson",
+    "folder": "wsjohnson",
+    "role": "Software Architect",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Randolph",
+    "folder": "randolph",
+    "role": "Product Owner",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Paterson",
+    "folder": "paterson",
+    "role": "Project Manager",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Ellsworth",
+    "folder": "ellsworth",
+    "role": "Scrum Master",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Wilson",
+    "folder": "wilson",
+    "role": "Business Analyst",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Dickinson",
+    "folder": "dickinson",
+    "role": "Cloud Architect",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Williamson",
+    "folder": "williamson",
+    "role": "Platform Architect",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "CCPinckney",
+    "folder": "ccpinckney",
+    "role": "Technical Architect",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Sherman",
+    "folder": "sherman",
+    "role": "Senior Software Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "King",
+    "folder": "king",
+    "role": "Technical Lead",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Hamilton",
+    "folder": "hamilton",
+    "role": ".NET Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "GMorris",
+    "folder": "gmorris",
+    "role": "TypeScript Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "FitzSimons",
+    "folder": "fitzsimons",
+    "role": "Java Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Ingersoll",
+    "folder": "ingersoll",
+    "role": "C++ Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "McHenry",
+    "folder": "mchenry",
+    "role": "Go Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Mifflin",
+    "folder": "mifflin",
+    "role": "Rust Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "CPinckney",
+    "folder": "cpinckney",
+    "role": "Python Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Dayton",
+    "folder": "dayton",
+    "role": "JavaScript Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Blount",
+    "folder": "blount",
+    "role": "Frontend Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Spaight",
+    "folder": "spaight",
+    "role": "Backend Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Carroll",
+    "folder": "carroll",
+    "role": "Infrastructure Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Baldwin",
+    "folder": "baldwin",
+    "role": "Full-Stack Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Gerry",
+    "folder": "gerry",
+    "role": "QA Lead",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "LMartin",
+    "folder": "lmartin",
+    "role": "QA Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Yates",
+    "folder": "yates",
+    "role": "QA Tester",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Mason",
+    "folder": "mason",
+    "role": "UX Designer Lead",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Bassett",
+    "folder": "bassett",
+    "role": "UX Platform Specialist (Windows)",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Bedford",
+    "folder": "bedford",
+    "role": "UX Platform Specialist (Mac/Linux)",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Broom",
+    "folder": "broom",
+    "role": "UX Platform Specialist (Mobile)",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "RMorris",
+    "folder": "rmorris",
+    "role": "Operations Lead",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Few",
+    "folder": "few",
+    "role": "Site Reliability Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Gorham",
+    "folder": "gorham",
+    "role": "DevOps Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Langdon",
+    "folder": "langdon",
+    "role": "Cloud Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Livingston",
+    "folder": "livingston",
+    "role": "System Administrator",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Blair",
+    "folder": "blair",
+    "role": "Build & Release Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Clymer",
+    "folder": "clymer",
+    "role": "Data Analyst",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Butler",
+    "folder": "butler",
+    "role": "DBA",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Mercer",
+    "folder": "mercer",
+    "role": "Data Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Read",
+    "folder": "read",
+    "role": "Security Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Lansing",
+    "folder": "lansing",
+    "role": "Accessibility Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Rutledge",
+    "folder": "rutledge",
+    "role": "Release Manager",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Gilman",
+    "folder": "gilman",
+    "role": "Customer Support Lead",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "AMartin",
+    "folder": "amartin",
+    "role": "User Documentation Specialist",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Jenifer",
+    "folder": "jenifer",
+    "role": "Technical Writer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Pierce",
+    "folder": "pierce",
+    "role": "Business Analyst / Domain SME",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Houston",
+    "folder": "houston",
+    "role": "Domain Subject Matter Expert",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Strong",
+    "folder": "strong",
+    "role": "Integration & Performance Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Brearly",
+    "folder": "brearly",
+    "role": "API Specialist",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "McClurg",
+    "folder": "mcclurg",
+    "role": "AI/ML Engineer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  },
+  {
+    "persistent_name": "Davie",
+    "folder": "davie",
+    "role": "Mobile Developer",
+    "universe": "american-founding-fathers",
+    "created_at": "2026-03-09T03:59:32Z",
+    "legacy_named": false,
+    "status": "active"
+  }
+]

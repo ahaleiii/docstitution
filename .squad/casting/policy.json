@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "universe": "american-founding-fathers",
+  "capacity": 55,
+  "allow_overflow": true,
+  "overflow_strategy": "diegetic-expansion",
+  "notes": "Constitutional Convention delegates (1787). Custom universe for this project."
+}

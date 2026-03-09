@@ -1,9 +1,8 @@
----
-updated_at: 2026-03-09T02:12:11.274Z
-focus_area: Initial setup
-active_issues: []
----
+# Current Focus
 
-# What We're Focused On
+The Constitutional Convention has been convened. 54 delegates are preparing their individual reports
+on the types of documents they consider essential for software product documentation.
 
-Getting started. Updated by coordinator at session start.
+**Phase:** Individual delegate reports — each delegate identifies document types important to their role.
+**Next:** Synthesize reports into draft Articles for the Docstitution.
+**Branch:** oneshot

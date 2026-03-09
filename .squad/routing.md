@@ -1,54 +1,74 @@
-# Work Routing
-
-How to decide who handles what.
+# Work Routing — The Constitutional Convention
 
 ## Routing Table
 
 | Work Type | Route To | Examples |
 |-----------|----------|----------|
-| {domain 1} | {Name} | {example tasks} |
-| {domain 2} | {Name} | {example tasks} |
-| {domain 3} | {Name} | {example tasks} |
-| Code review | {Name} | Review PRs, check quality, suggest improvements |
-| Testing | {Name} | Write tests, find edge cases, verify fixes |
-| Scope & priorities | {Name} | What to build next, trade-offs, decisions |
-| Async issue work (bugs, tests, small features) | @copilot 🤖 | Well-defined tasks matching capability profile |
+| Convention governance, final structure | Washington | Procedure, order, final approval |
+| Documentation architecture, taxonomy, structure | Madison | Document organization, templates, hierarchy |
+| Technical writing craft, style guides | Jenifer | Style consistency, terminology, linting |
+| Product requirements, user stories | Randolph | PRDs, acceptance criteria, backlog |
+| Project management, status, planning | Paterson | Status reports, risk logs, timelines |
+| Agile process, sprint documentation | Ellsworth | Sprint docs, retros, Definition of Done |
+| Business analysis, requirements | Wilson, Pierce | Business rules, data dictionaries, domain models |
+| Software architecture, ADRs | WSJohnson | System design, C4 diagrams, tech specs |
+| Cloud architecture, IaC | Dickinson | Cloud docs, IaC, service catalogs |
+| Platform architecture, SDK docs | Williamson | Platform docs, developer experience |
+| Technical architecture, integration | CCPinckney | Integration docs, tech debt, fitness functions |
+| Code documentation standards | Sherman, King | Code comments, PR standards, coding guidelines |
+| .NET documentation | Hamilton | XML doc comments, .NET API docs |
+| TypeScript/JS documentation | GMorris, Dayton | TypeDoc, JSDoc, React component docs |
+| Java documentation | FitzSimons | Javadoc, enterprise patterns |
+| C++ documentation | Ingersoll | Doxygen, systems docs, memory/thread safety |
+| Go documentation | McHenry | Godoc, minimal docs |
+| Rust documentation | Mifflin | Cargo doc, doc tests, safety docs |
+| Python documentation | CPinckney | Docstrings, Sphinx, type hints |
+| Frontend documentation | Blount | Component docs, design systems, CSS |
+| Backend documentation | Spaight | API docs, service docs, schema docs |
+| Infrastructure documentation | Carroll | IaC docs, environment docs, deployment |
+| Full-stack, cross-cutting docs | Baldwin | End-to-end feature docs, integration guides |
+| QA strategy, test documentation | Gerry | Test plans, traceability, quality gates |
+| Test automation documentation | LMartin | BDD/Gherkin, test case docs, automation |
+| Manual testing, UAT documentation | Yates | Bug reports, UAT, exploratory testing docs |
+| UX design documentation | Mason | Design specs, user research, design systems |
+| Windows platform documentation | Bassett | Windows-specific guides, WinUI |
+| Mac/Linux platform documentation | Bedford | CLI docs, terminal docs, Unix tooling |
+| Mobile platform documentation | Broom, Davie | Mobile UX, app store, responsive docs |
+| Operations, runbooks | RMorris | Runbooks, incident docs, change management |
+| SRE, SLO documentation | Few | SLOs, monitoring docs, error budgets |
+| DevOps, CI/CD documentation | Gorham | Pipeline docs, GitOps, automation |
+| Cloud engineering, cost docs | Langdon | Cloud services, cost docs, multi-cloud |
+| System administration | Livingston | Config docs, DR, network, capacity |
+| Build/release, versioning | Blair | Build docs, release notes, versioning |
+| Data analysis, dashboards | Clymer | Analytics docs, dashboard docs, data lineage |
+| Database documentation | Butler | Schema docs, migration docs, ERDs |
+| Data engineering, pipelines | Mercer | ETL docs, data catalogs, data quality |
+| Security documentation | Read | Threat models, security reviews, secure coding |
+| Accessibility documentation | Lansing | WCAG, a11y standards, inclusive design |
+| Release management | Rutledge | Release docs, stakeholder communication |
+| Customer support documentation | Gilman | Knowledge base, FAQs, troubleshooting |
+| User documentation, tutorials | AMartin | User guides, tutorials, learning paths |
+| Compliance, governance | Wythe | Audit docs, compliance, regulatory |
+| Domain expertise, knowledge capture | Houston | Tacit knowledge, decision rationale |
+| Integration, performance docs | Strong | SLAs, benchmarks, integration tests |
+| API documentation | Brearly | OpenAPI, developer portals, API versioning |
+| AI/ML documentation | McClurg | Model cards, prompt docs, AI ethics |
+| Senior technical advisory | Franklin | Mentoring, practical wisdom, onboarding |
 | Session logging | Scribe | Automatic — never needs routing |
 
 ## Issue Routing
 
 | Label | Action | Who |
 |-------|--------|-----|
-| `squad` | Triage: analyze issue, evaluate @copilot fit, assign `squad:{member}` label | Lead |
-| `squad:{name}` | Pick up issue and complete the work | Named member |
-| `squad:copilot` | Assign to @copilot for autonomous work (if enabled) | @copilot 🤖 |
-
-### How Issue Assignment Works
-
-1. When a GitHub issue gets the `squad` label, the **Lead** triages it — analyzing content, evaluating @copilot's capability profile, assigning the right `squad:{member}` label, and commenting with triage notes.
-2. **@copilot evaluation:** The Lead checks if the issue matches @copilot's capability profile (🟢 good fit / 🟡 needs review / 🔴 not suitable). If it's a good fit, the Lead may route to `squad:copilot` instead of a squad member.
-3. When a `squad:{member}` label is applied, that member picks up the issue in their next session.
-4. When `squad:copilot` is applied and auto-assign is enabled, `@copilot` is assigned on the issue and picks it up autonomously.
-5. Members can reassign by removing their label and adding another member's label.
-6. The `squad` label is the "inbox" — untriaged issues waiting for Lead review.
-
-### Lead Triage Guidance for @copilot
-
-When triaging, the Lead should ask:
-
-1. **Is this well-defined?** Clear title, reproduction steps or acceptance criteria, bounded scope → likely 🟢
-2. **Does it follow existing patterns?** Adding a test, fixing a known bug, updating a dependency → likely 🟢
-3. **Does it need design judgment?** Architecture, API design, UX decisions → likely 🔴
-4. **Is it security-sensitive?** Auth, encryption, access control → always 🔴
-5. **Is it medium complexity with specs?** Feature with clear requirements, refactoring with tests → likely 🟡
+| squad | Triage: analyze, assign squad:{member} label | Washington (Convention President) |
+| squad:{name} | Pick up issue and complete the work | Named delegate |
 
 ## Rules
 
-1. **Eager by default** — spawn all agents who could usefully start work, including anticipatory downstream work.
-2. **Scribe always runs** after substantial work, always as `mode: "background"`. Never blocks.
-3. **Quick facts → coordinator answers directly.** Don't spawn an agent for "what port does the server run on?"
-4. **When two agents could handle it**, pick the one whose domain is the primary concern.
-5. **"Team, ..." → fan-out.** Spawn all relevant agents in parallel as `mode: "background"`.
-6. **Anticipate downstream work.** If a feature is being built, spawn the tester to write test cases from requirements simultaneously.
-7. **Issue-labeled work** — when a `squad:{member}` label is applied to an issue, route to that member. The Lead handles all `squad` (base label) triage.
-8. **@copilot routing** — when evaluating issues, check @copilot's capability profile in `team.md`. Route 🟢 good-fit tasks to `squad:copilot`. Flag 🟡 needs-review tasks for PR review. Keep 🔴 not-suitable tasks with squad members.
+1. **Washington presides** — Convention President has final say on procedure.
+2. **Madison drafts** — Documentation Architect produces the primary text.
+3. **All delegates debate** — Every delegate may argue for their domain's needs.
+4. **Scribe always runs** after substantial work, always as background.
+5. **Quick facts → coordinator answers directly.**
+6. **"Team, ..." or "Delegates, ..." → fan-out** to all relevant delegates.
+7. **Ratification requires 80% (44/54)** — no shortcuts.
