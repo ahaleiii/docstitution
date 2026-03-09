@@ -6,7 +6,7 @@ document_type: governing-document
 status: ratified
 owner: convention-committee
 audience: [humans, agents]
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 version: 0.1.0
 review_cadence: annual
 tags: [amendment, versioning, governance, change-management]
@@ -16,7 +16,7 @@ drafted_by:
   - Ellsworth (Scrum Master)
   - Paterson (Project Manager)
   - Sherman (Senior SWE)
-date: 2025-07-25
+date: 2026-03-09
 applies_to: articles I–VII
 principle: "Semper Reformanda — always reforming"
 ---

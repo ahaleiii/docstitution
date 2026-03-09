@@ -5,7 +5,7 @@ title: "Ratification Vote: The Docstitution"
 status: active
 owner: convention-committee
 audience: [humans, agents]
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 review_cadence: n/a
 tags: [ratification, vote, convention, roll-call]
 ---
@@ -13,7 +13,7 @@ tags: [ratification, vote, convention, roll-call]
 
 # Ratification Vote: The Docstitution
 
-**Date:** 2025-07-25
+**Date:** 2026-03-09
 **Presiding Officer:** Washington (Convention President)
 **Secretary:** Madison (Documentation Architect)
 **Quorum:** 54 delegates present. 54 votes cast. Quorum achieved.

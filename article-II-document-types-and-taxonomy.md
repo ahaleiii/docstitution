@@ -6,7 +6,7 @@ article_number: 2
 status: ratified
 audience: [humans, agents]
 owner: convention-committee
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 review_cadence: semi-annual
 tags: [taxonomy, document-types, tiers, required-core, metadata]
 tier: 3

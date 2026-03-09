@@ -5,7 +5,7 @@ title: "Article I: Foundational Principles"
 status: ratified
 owner: convention-committee
 audience: [humans, agents]
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 review_cadence: annual
 tags: [principles, dual-audience, freshness, ownership, accessibility]
 sections:

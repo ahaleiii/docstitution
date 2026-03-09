@@ -5,7 +5,7 @@ title: The Docstitution
 status: ratified
 owner: convention-committee
 audience: [humans, agents]
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 version: 1.0.0
 review_cadence: annual
 tags: [docstitution, preamble, governance, documentation-standards]
@@ -116,7 +116,7 @@ This Docstitution shall itself follow the principles it prescribes. It carries s
 
 ## Signatories
 
-**Ratified:** July 25, 2025 · **Vote:** 51-3-0 (94.4%) · **Full record:** [convention/votes/ratification-vote.md](convention/votes/ratification-vote.md)
+**Ratified:** March 9, 2026 · **Vote:** 51-3-0 (94.4%) · **Full record:** [convention/votes/ratification-vote.md](convention/votes/ratification-vote.md)
 
 ### YEA — 51 Delegates
 
