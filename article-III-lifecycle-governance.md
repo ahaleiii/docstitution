@@ -14,7 +14,7 @@ reviewers:
   - Livingston (SysAdmin)
 review_cadence: quarterly
 freshness_threshold_days: 90
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 tags: [lifecycle, governance, freshness, review-cadence, deprecation]
 created: 2025-07-17
 version: 0.1.0

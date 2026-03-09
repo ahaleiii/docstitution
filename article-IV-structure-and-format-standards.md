@@ -5,7 +5,7 @@ title: "Article IV: Structure & Format Standards"
 status: ratified
 owner: convention-committee
 audience: [humans, agents]
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 review_cadence: annual
 tags: [structure, format, metadata, accessibility, cross-references, diagrams-as-code, platform-parity]
 cross_references:

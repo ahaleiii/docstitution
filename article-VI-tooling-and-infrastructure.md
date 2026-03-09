@@ -7,7 +7,7 @@ short_title: "Tooling & Infrastructure"
 status: ratified
 owner: convention-committee
 audience: [humans, agents]
-last_verified: 2025-07-25
+last_verified: 2026-03-09
 review_cadence: annual
 tags: [tooling, infrastructure, ci-cd, automation, doc-as-code]
 version: 0.1.0
