@@ -4,7 +4,7 @@ title: "Article VI: Tooling & Infrastructure"
 document_type: governing-document
 article_number: 6
 short_title: "Tooling & Infrastructure"
-status: draft
+status: ratified
 owner: convention-committee
 audience: [humans, agents]
 last_verified: 2025-07-25

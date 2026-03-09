@@ -2,11 +2,11 @@
 ---
 document_type: governing-document
 title: The Docstitution
-status: draft
+status: ratified
 owner: convention-committee
 audience: [humans, agents]
 last_verified: 2025-07-25
-version: 0.1.0
+version: 1.0.0
 review_cadence: annual
 tags: [docstitution, preamble, governance, documentation-standards]
 description: >
@@ -116,7 +116,33 @@ This Docstitution shall itself follow the principles it prescribes. It carries s
 
 ## Signatories
 
-*This section is reserved for ratification. Upon adoption, signatories — both the founding delegates and subsequent ratifying teams — shall be recorded here.*
+**Ratified:** July 25, 2025 · **Vote:** 51-3-0 (94.4%) · **Full record:** [convention/votes/ratification-vote.md](convention/votes/ratification-vote.md)
+
+### YEA — 51 Delegates
+
+| Delegation | Signatories |
+|---|---|
+| **Leadership** | Washington, Franklin, Madison, Wythe, WSJohnson |
+| **Product/Process** | Randolph, Paterson, Ellsworth, Wilson |
+| **Architecture** | Dickinson, Williamson, CCPinckney |
+| **Tech Leads** | Sherman, King |
+| **Dev by Technology** | Hamilton, GMorris, FitzSimons, Ingersoll, McHenry, Mifflin, CPinckney, Dayton |
+| **Dev by Area** | Blount, Spaight, Carroll, Baldwin |
+| **QA** | Gerry, LMartin, Yates |
+| **UX & Design** | Mason, Bassett, Bedford, Broom |
+| **Ops & Infra** | RMorris, Few, Gorham, Langdon, Livingston, Blair |
+| **Data** | Clymer, Butler, Mercer |
+| **Security & Accessibility** | Read |
+| **Docs/Support/Release** | Rutledge, Gilman, AMartin, Jenifer |
+| **SMEs & Specialists** | Pierce, Strong, Brearly, Davie |
+
+### NAY — 3 Delegates (Recorded Dissenters)
+
+| Delegate | Delegation | Grounds |
+|---|---|---|
+| Lansing | Accessibility | — |
+| Houston | Knowledge Representation | — |
+| McClurg | Agent Autonomy | — |
 
 ---
 

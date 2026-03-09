@@ -3,7 +3,7 @@
 document_type: governing-document
 title: "Article II: Document Types & Taxonomy"
 article_number: 2
-status: draft
+status: ratified
 audience: [humans, agents]
 owner: convention-committee
 last_verified: 2025-07-25

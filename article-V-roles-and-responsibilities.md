@@ -3,7 +3,7 @@
 title: "Article V: Roles & Responsibilities"
 document_type: governing-document
 article: V
-status: draft
+status: ratified
 owner: convention-committee
 audience: [humans, agents]
 last_verified: 2025-07-25
