@@ -1,0 +1,228 @@
+{
+  "assignments": [
+    {
+      "assignment_id": "docstitution-convention-001",
+      "universe": "american-founding-fathers",
+      "created_at": "2026-03-09T03:59:32Z",
+      "agent_count": 54,
+      "agents": [
+        {
+          "name": "Washington",
+          "role": "Convention President / Chief Software Architect"
+        },
+        {
+          "name": "Franklin",
+          "role": "Senior Technical Advisor"
+        },
+        {
+          "name": "Madison",
+          "role": "Documentation Architect / Lead Technical Writer"
+        },
+        {
+          "name": "Wythe",
+          "role": "Compliance & Governance Specialist"
+        },
+        {
+          "name": "WSJohnson",
+          "role": "Software Architect"
+        },
+        {
+          "name": "Randolph",
+          "role": "Product Owner"
+        },
+        {
+          "name": "Paterson",
+          "role": "Project Manager"
+        },
+        {
+          "name": "Ellsworth",
+          "role": "Scrum Master"
+        },
+        {
+          "name": "Wilson",
+          "role": "Business Analyst"
+        },
+        {
+          "name": "Dickinson",
+          "role": "Cloud Architect"
+        },
+        {
+          "name": "Williamson",
+          "role": "Platform Architect"
+        },
+        {
+          "name": "CCPinckney",
+          "role": "Technical Architect"
+        },
+        {
+          "name": "Sherman",
+          "role": "Senior Software Engineer"
+        },
+        {
+          "name": "King",
+          "role": "Technical Lead"
+        },
+        {
+          "name": "Hamilton",
+          "role": ".NET Developer"
+        },
+        {
+          "name": "GMorris",
+          "role": "TypeScript Developer"
+        },
+        {
+          "name": "FitzSimons",
+          "role": "Java Developer"
+        },
+        {
+          "name": "Ingersoll",
+          "role": "C++ Developer"
+        },
+        {
+          "name": "McHenry",
+          "role": "Go Developer"
+        },
+        {
+          "name": "Mifflin",
+          "role": "Rust Developer"
+        },
+        {
+          "name": "CPinckney",
+          "role": "Python Developer"
+        },
+        {
+          "name": "Dayton",
+          "role": "JavaScript Developer"
+        },
+        {
+          "name": "Blount",
+          "role": "Frontend Developer"
+        },
+        {
+          "name": "Spaight",
+          "role": "Backend Developer"
+        },
+        {
+          "name": "Carroll",
+          "role": "Infrastructure Developer"
+        },
+        {
+          "name": "Baldwin",
+          "role": "Full-Stack Developer"
+        },
+        {
+          "name": "Gerry",
+          "role": "QA Lead"
+        },
+        {
+          "name": "LMartin",
+          "role": "QA Engineer"
+        },
+        {
+          "name": "Yates",
+          "role": "QA Tester"
+        },
+        {
+          "name": "Mason",
+          "role": "UX Designer Lead"
+        },
+        {
+          "name": "Bassett",
+          "role": "UX Platform Specialist (Windows)"
+        },
+        {
+          "name": "Bedford",
+          "role": "UX Platform Specialist (Mac/Linux)"
+        },
+        {
+          "name": "Broom",
+          "role": "UX Platform Specialist (Mobile)"
+        },
+        {
+          "name": "RMorris",
+          "role": "Operations Lead"
+        },
+        {
+          "name": "Few",
+          "role": "Site Reliability Engineer"
+        },
+        {
+          "name": "Gorham",
+          "role": "DevOps Engineer"
+        },
+        {
+          "name": "Langdon",
+          "role": "Cloud Engineer"
+        },
+        {
+          "name": "Livingston",
+          "role": "System Administrator"
+        },
+        {
+          "name": "Blair",
+          "role": "Build & Release Engineer"
+        },
+        {
+          "name": "Clymer",
+          "role": "Data Analyst"
+        },
+        {
+          "name": "Butler",
+          "role": "DBA"
+        },
+        {
+          "name": "Mercer",
+          "role": "Data Engineer"
+        },
+        {
+          "name": "Read",
+          "role": "Security Engineer"
+        },
+        {
+          "name": "Lansing",
+          "role": "Accessibility Engineer"
+        },
+        {
+          "name": "Rutledge",
+          "role": "Release Manager"
+        },
+        {
+          "name": "Gilman",
+          "role": "Customer Support Lead"
+        },
+        {
+          "name": "AMartin",
+          "role": "User Documentation Specialist"
+        },
+        {
+          "name": "Jenifer",
+          "role": "Technical Writer"
+        },
+        {
+          "name": "Pierce",
+          "role": "Business Analyst / Domain SME"
+        },
+        {
+          "name": "Houston",
+          "role": "Domain Subject Matter Expert"
+        },
+        {
+          "name": "Strong",
+          "role": "Integration & Performance Engineer"
+        },
+        {
+          "name": "Brearly",
+          "role": "API Specialist"
+        },
+        {
+          "name": "McClurg",
+          "role": "AI/ML Engineer"
+        },
+        {
+          "name": "Davie",
+          "role": "Mobile Developer"
+        }
+      ]
+    }
+  ]
+}
