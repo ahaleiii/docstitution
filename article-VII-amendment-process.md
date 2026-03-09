@@ -3,7 +3,7 @@
 title: "Article VII: Amendment Process"
 article: VII
 document_type: governing-document
-status: draft
+status: ratified
 owner: convention-committee
 audience: [humans, agents]
 last_verified: 2025-07-25

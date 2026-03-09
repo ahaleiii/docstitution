@@ -2,7 +2,7 @@
 ---
 title: "Article III: Lifecycle Governance"
 document_type: governing-document
-status: draft
+status: ratified
 owner: convention-committee
 audience: [humans, agents]
 reviewers:

@@ -2,7 +2,7 @@
 ---
 document_type: governing-document
 title: "Article I: Foundational Principles"
-status: draft
+status: ratified
 owner: convention-committee
 audience: [humans, agents]
 last_verified: 2025-07-25
